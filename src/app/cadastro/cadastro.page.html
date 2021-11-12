@@ -15,9 +15,11 @@
   
 <h1>Pessoas</h1>
 
+{{usuario.nome}}
+
 <ion-item>
   <ion-label position="floating">Nome</ion-label>
-  <ion-input></ion-input>
+  <ion-input [(ngModel)]="usuario.nome"></ion-input>
 </ion-item>
 
 <ion-item>
